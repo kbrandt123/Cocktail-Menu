@@ -5,8 +5,8 @@ body {
 
 .image-div {
   display: flex;
-  height: 1000px; /*820px for mac*/
-  width: 100%;
+  width: auto;
+  height: auto;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
