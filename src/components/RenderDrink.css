@@ -1,13 +1,12 @@
 .cocktail-img-div {
-  width: 100%;
-  height: 100%;
+  width: 700px;
+  height: 700px;
   border-right: 2px solid;
-  object-fit: contain;
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  border-radius: 2px;
+}
+
+.image {
+  min-height: 100%;
+  /* object-fit: cover; */
 }
 .cocktail-div {
   display: -webkit-box;
