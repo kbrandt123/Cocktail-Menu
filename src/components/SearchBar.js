@@ -9,7 +9,6 @@ const SearchBar = () => {
   const [validSearch, setValidSearch] = useState(true);
 
   const trackInput = (e) => {
-    console.log(e.target.value);
     setSearch(e.target.value);
   };
 
@@ -18,8 +17,6 @@ const SearchBar = () => {
       `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${input}`
     );
     const data = await res.json();
-    console.log(data);
-
     return data;
   };
 
@@ -28,7 +25,6 @@ const SearchBar = () => {
       `https://www.thecocktaildb.com/api/json/v1/1/random.php`
     );
     const data = await res.json();
-
     return data.drinks[0];
   };
 
@@ -103,7 +99,6 @@ const SearchBar = () => {
             </div>
           </div>
         </div>
-
         {clickedDrink && <RenderDrink drink={clickedDrink}></RenderDrink>}
       </div>
     </>

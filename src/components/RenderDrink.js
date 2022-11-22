@@ -20,10 +20,7 @@ const RenderDrink = (props) => {
   return (
     <>
       <div className="cocktail-div">
-        <div
-          className="cocktail-img-div"
-          // style={{ backgroundImage: `url(${props.drink.strDrinkThumb})` }}
-        >
+        <div className="cocktail-img-div">
           <img className="image" src={props.drink.strDrinkThumb} />
         </div>
         <div className="cocktail-info-div">

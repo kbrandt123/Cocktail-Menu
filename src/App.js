@@ -22,12 +22,6 @@ const App = () => {
           </div>
         </div>
       </div>
-      {/* <div id="search" className="search-div">
-        <div className="search-header">
-          <h1 className="heading-4">Search your favorite cocktail</h1>
-        </div>
-        
-      </div> */}
       <SearchBar />
     </>
   );

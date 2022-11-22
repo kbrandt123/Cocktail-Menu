@@ -6,7 +6,6 @@
 
 .image {
   min-height: 100%;
-  /* object-fit: cover; */
 }
 .cocktail-div {
   display: -webkit-box;

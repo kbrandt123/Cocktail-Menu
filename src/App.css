@@ -4,26 +4,11 @@ body {
 }
 
 .image-div {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  height: 1100px; /*
-820px for mac
-  */
+  height: 1100px; /*820px for mac*/
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
   align-items: flex-start;
   background-image: url("./images/drink-g642e05473_1920.jpg");
   background-position: 50% 50%;
@@ -33,47 +18,21 @@ body {
 }
 
 .hero-div {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   min-height: 400px;
   min-width: 50%;
   margin-left: 40px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
   align-items: flex-start;
 }
 
 .hero-info {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   min-height: 400px;
   min-width: 70%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
   align-items: flex-start;
 }
 
@@ -90,23 +49,6 @@ body {
   font-size: 60px;
 }
 
-/* .button {
-  margin-top: 40px;
-  margin-left: 10px;
-  padding-top: 9px;
-  border-radius: 0px;
-  background-color: #fff;
-  font-family: Merriweather, serif;
-  color: #000;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  text-align: left;
-  cursor: pointer;
-  padding: 10px;
-} */
-
-/* CSS */
 .button {
   background: #ff4742;
   border: 1px solid #ff4742;
