@@ -66,10 +66,12 @@ const SearchBar = () => {
             <h1 className="heading-4">Search your favorite cocktail</h1>
           </div>
           <div className="btn-container">
-            <h4>Don't have a favorite drink?</h4>
-            <button className="random-btn" onClick={handleButtonClick}>
-              Click me for a random cocktail
-            </button>
+            <div className="btn-header">
+              <h3>Don't have a favorite drink?</h3>
+              <button className="random-btn" onClick={handleButtonClick}>
+                Click me for a random cocktail
+              </button>
+            </div>
           </div>
 
           <div className="search">
