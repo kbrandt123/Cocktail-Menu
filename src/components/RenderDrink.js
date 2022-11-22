@@ -23,7 +23,7 @@ const RenderDrink = (props) => {
         <div className="cocktail-img-div">
           <img className="image" src={props.drink.strDrinkThumb} />
         </div>
-        <div className="cocktail-info-div">
+        <div className="cocktail-info">
           <div className="main-info-div">
             <h1 className="heading-5">{props.drink.strDrink}</h1>
             <p className="instructions">{props.drink.strInstructions}</p>
