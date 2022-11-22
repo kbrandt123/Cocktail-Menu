@@ -26,6 +26,7 @@ const RenderDrink = (props) => {
         <div className="cocktail-info">
           <div className="main-info-div">
             <h1 className="heading-5">{props.drink.strDrink}</h1>
+            <h3 style={{ marginLeft: "20px" }}>Instructions: </h3>
             <p className="instructions">{props.drink.strInstructions}</p>
           </div>
           <div className="subinfo-div">
