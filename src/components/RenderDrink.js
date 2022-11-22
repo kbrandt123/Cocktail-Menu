@@ -20,7 +20,7 @@ const RenderDrink = (props) => {
   return (
     <>
       <div className="cocktail-div">
-        <div className="cocktail-img-div">
+        <div className="cocktail-img">
           <img className="image" src={props.drink.strDrinkThumb} />
         </div>
         <div className="cocktail-info">
