@@ -180,6 +180,7 @@ ul:hover {
   font-family: Inconsolata, monospace;
   font-weight: 400;
   text-align: center;
+  margin: 0;
 }
 
 /* .search-header {
