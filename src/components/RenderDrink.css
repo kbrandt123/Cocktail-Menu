@@ -1,8 +1,6 @@
 .cocktail-img {
-  width: 700px;
-  height: 700px;
+  height: 100%;
   border-right: 2px solid;
-  object-fit: cover;
 }
 
 .image {
