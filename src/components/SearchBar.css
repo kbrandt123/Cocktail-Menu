@@ -34,16 +34,13 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 40%;
+  height: 100%;
   justify-content: space-evenly;
 }
 
-/* .btn-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 100%;
-} */
+.btn-container {
+  margin: 10px;
+}
 
 .btn-header {
   display: flex;
