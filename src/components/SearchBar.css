@@ -27,6 +27,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 800px;
 }
 
 .search-container {
@@ -35,7 +36,6 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  justify-content: space-evenly;
 }
 
 .btn-container {
@@ -132,7 +132,7 @@ ul:hover {
 
 .search-div {
   display: flex;
-  height: 1050px;
+  height: 800px;
   width: 100%;
   margin-top: 50px;
   padding-top: 0px;
