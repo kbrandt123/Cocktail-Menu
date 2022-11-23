@@ -69,7 +69,7 @@ const SearchBar = () => {
             <div className="btn-header">
               <h3>Don't have a favorite drink?</h3>
               <button className="random-btn" onClick={handleButtonClick}>
-                Click me for a random cocktail
+                Click here for a random cocktail
               </button>
             </div>
           </div>
