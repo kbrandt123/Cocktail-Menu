@@ -86,13 +86,6 @@ body {
   opacity: 0.5;
 }
 
-.ingredients {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-  border-top: 2px solid;
-}
 
 .heading-6 {
   margin-left: 20px;
